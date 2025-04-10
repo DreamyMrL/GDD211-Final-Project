@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: StartDialogue
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: Welcome to [city name]!
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: In this world every citizen has some sort of power that makes them unique.
+      Be it flight,  fire-breath, or even the ability to turn into a monkey, this
+      world is filled with many  wondrous abilities.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You are nearing your fifth year as a private detective. You have the power
+      to see the past  state of an area up to 12 hours in the past.
+    portrait: {fileID: 2874734412744330361, guid: 5924da78defde4046ba5ae66696891b0, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You are in a taxi on your way to your newest assignment. Today you are
+      going to the  Metropoliton Aquarium. A severed human arm was found in the coral
+      tank by one of the  employees early this morning. The director of the aquarium
+      hired you to try to get to the  bottom of this.
+    portrait: {fileID: 2874734412744330361, guid: 5924da78defde4046ba5ae66696891b0, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You arrive outside the aquarium. It looks like a few officers are still
+      here from when the employee called them this morning.
+    portrait: {fileID: 2874734412744330361, guid: 5924da78defde4046ba5ae66696891b0, type: 3}
+    hasChoices: 0
+    choices:
+    - choiceText: Talk
+      nextDialogue: {fileID: 11400000, guid: cf691bb2bccf74e8183503bdbd457ab1, type: 2}
+    - choiceText: Go Inside
+      nextDialogue: {fileID: 11400000, guid: f8b30faabde4f4209bf6b513ce25a535, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: GoInsideData
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: You enter the aquarium entranceway. There you see a ticket booth that has
+      a bored looking employee in it. As you move towards the booth the employee
+      looks up.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: Employee
+    text: What do you want? I have already told the cops everything I know.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []

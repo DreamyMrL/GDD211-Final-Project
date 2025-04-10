@@ -11,23 +11,24 @@ public class DialogueSystem : MonoBehaviour
     public Image portraitImage;
     public GameObject dialoguePanel;
 
+    [Header("Choices")]
+    public GameObject choicesPanel;
+    public GameObject choiceButtonPrefab;
+
     private Queue<LineData> dialogueQueue;
     private bool isDialogueActive = false;
+
+
 
     void Start()
     {
         dialogueQueue = new Queue<LineData>();
         dialoguePanel.SetActive(false);
+        choicesPanel.SetActive(false);
     }
 
     public void StartDialogue(DialogueData dialogueData)
     {
-        if (dialogueData == null || dialogueData.lines.Length == 0)
-        {
-            Debug.LogWarning("DialogueData is empty or null!");
-            return;
-        }
-
         dialogueQueue.Clear();
 
         foreach (LineData line in dialogueData.lines)
@@ -47,7 +48,6 @@ public class DialogueSystem : MonoBehaviour
             EndDialogue();
             return;
         }
-
         LineData currentLine = dialogueQueue.Dequeue();
 
         characterNameText.text = currentLine.characterName;
@@ -55,6 +55,11 @@ public class DialogueSystem : MonoBehaviour
 
         StopAllCoroutines();
         StartCoroutine(TypeText(currentLine.text));
+
+        if (currentLine.hasChoices && currentLine.choices.Length > 0)
+        {
+            ShowChoices(currentLine.choices);
+        }
     }
 
     IEnumerator TypeText(string line)
@@ -67,6 +72,7 @@ public class DialogueSystem : MonoBehaviour
         }
     }
 
+
     public void EndDialogue()
     {
         dialoguePanel.SetActive(false);
@@ -75,11 +81,44 @@ public class DialogueSystem : MonoBehaviour
 
     void Update()
     {
-        if (isDialogueActive && Input.GetKeyDown(KeyCode.Space))
+        if (isDialogueActive && Input.GetKeyDown(KeyCode.Space) && !choicesPanel.activeSelf)
         {
             DisplayNextLine();
         }
     }
+
+    void ShowChoices(DialogueChoice[] choices)
+    {
+        choicesPanel.SetActive(true);
+
+        // Clear existing buttons
+        foreach (Transform child in choicesPanel.transform)
+        {
+            Destroy(child.gameObject);
+        }
+
+        foreach (DialogueChoice choice in choices)
+        {
+            GameObject buttonObj = Instantiate(choiceButtonPrefab, choicesPanel.transform);
+            TextMeshProUGUI buttonText = buttonObj.GetComponentInChildren<TextMeshProUGUI>();
+            buttonText.text = choice.choiceText;
+
+            Button button = buttonObj.GetComponent<Button>();
+            button.onClick.AddListener(() =>
+            {
+                choicesPanel.SetActive(false);
+                if (choice.nextDialogue != null)
+                {
+                    StartDialogue(choice.nextDialogue); // Branch to another dialogue
+                }
+                else
+                {
+                    DisplayNextLine(); // Continue current dialogue if no branch
+                }
+            });
+        }
+    }
 }
+
 
 
