@@ -43,7 +43,7 @@ MonoBehaviour:
     text: You arrive outside the aquarium. It looks like a few officers are still
       here from when the employee called them this morning.
     portrait: {fileID: 2874734412744330361, guid: 5924da78defde4046ba5ae66696891b0, type: 3}
-    hasChoices: 0
+    hasChoices: 1
     choices:
     - choiceText: Talk
       nextDialogue: {fileID: 11400000, guid: cf691bb2bccf74e8183503bdbd457ab1, type: 2}
