@@ -1,5 +1,8 @@
 // Attach this script to same GameObject as ObjectTrigger
-public class ObjectTriggerSoundBridge : MonoBehaviour, UnityEngine.EventSystems.IPointerClickHandler
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+public class ObjectTriggerSoundBridge : MonoBehaviour, IPointerClickHandler
 {
     private ObjectTrigger trigger;
     private AudioTriggerHelper audioHelper;
