@@ -22,13 +22,13 @@ MonoBehaviour:
     text: In this world every citizen has some sort of power that makes them unique.
       Be it flight,  fire-breath, or even the ability to turn into a monkey, this
       world is filled with many  wondrous abilities.
-    portrait: {fileID: 0}
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
   - characterName: 
     text: You are nearing your fifth year as a private detective. You have the power
       to see the past  state of an area up to 12 hours in the past.
-    portrait: {fileID: 2874734412744330361, guid: 5924da78defde4046ba5ae66696891b0, type: 3}
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
   - characterName: 
@@ -36,13 +36,13 @@ MonoBehaviour:
       going to the  Metropoliton Aquarium. A severed human arm was found in the coral
       tank by one of the  employees early this morning. The director of the aquarium
       hired you to try to get to the  bottom of this.
-    portrait: {fileID: 2874734412744330361, guid: 5924da78defde4046ba5ae66696891b0, type: 3}
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
   - characterName: 
     text: You arrive outside the aquarium. It looks like a few officers are still
       here from when the employee called them this morning.
-    portrait: {fileID: 2874734412744330361, guid: 5924da78defde4046ba5ae66696891b0, type: 3}
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 1
     choices:
     - choiceText: Talk
