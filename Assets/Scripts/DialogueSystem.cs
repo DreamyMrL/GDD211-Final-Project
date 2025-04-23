@@ -22,12 +22,25 @@ public class DialogueSystem : MonoBehaviour
     private Coroutine typingCoroutine;
     private bool isTyping = false;
     private LineData currentDisplayedLine; // ADDED: track current line
+    [Header("Audio")]
+    public AudioClip typewriterSFX1;
+    public AudioClip typewriterSFX2;
+    public AudioClip carriageReturnSFX;
+    [Range(0f, 1f)] public float typewriterVolume = 1f;
+    [Range(0f, 1f)] public float carriageReturnVolume = 1f;
+    public float typeDelay = 0.04f;
+    public int charsPerSFX = 2;
+
+    private AudioSource audioSource;
+
 
     void Start()
     {
         dialogueQueue = new Queue<LineData>();
         dialoguePanel.SetActive(false);
         choicesPanel.SetActive(false);
+        audioSource = gameObject.AddComponent<AudioSource>();
+
     }
 
     public void StartDialogue(DialogueData dialogueData)
@@ -76,22 +89,45 @@ public class DialogueSystem : MonoBehaviour
     {
         isTyping = true;
         dialogueText.text = "";
+        int charCount = 0;
 
         foreach (char letter in line.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(0.04f);
+            charCount++;
+
+            if (charCount % charsPerSFX == 0)
+            {
+                PlayRandomTypewriterSFX();
+            }
+
+            yield return new WaitForSeconds(typeDelay);
         }
 
         isTyping = false;
 
-        // After text finishes typing, check if choices exist
+        if (carriageReturnSFX != null)
+        {
+            audioSource.PlayOneShot(carriageReturnSFX, carriageReturnVolume);
+        }
+
         if (currentDisplayedLine.hasChoices && currentDisplayedLine.choices.Length > 0)
         {
             waitingForChoice = true;
             ShowChoices(currentDisplayedLine.choices);
         }
     }
+    void PlayRandomTypewriterSFX()
+    {
+        if (typewriterSFX1 == null || typewriterSFX2 == null)
+            return;
+
+        AudioClip selected = Random.value < 0.5f ? typewriterSFX1 : typewriterSFX2;
+        audioSource.pitch = Random.Range(0.95f, 1.05f);
+        audioSource.PlayOneShot(selected, typewriterVolume);
+        audioSource.pitch = 1f;
+    }
+
 
     void CompleteTyping()
     {

@@ -674,10 +674,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1437,6 +1437,13 @@ MonoBehaviour:
   dialoguePanel: {fileID: 634782822}
   choicesPanel: {fileID: 774240835}
   choiceButtonPrefab: {fileID: 1402349971922663404, guid: f36f2f0009bf041f1b952f783773763f, type: 3}
+  typewriterSFX1: {fileID: 8300000, guid: 3d9ae8fb6cf7edc4eb8478485c6893b2, type: 3}
+  typewriterSFX2: {fileID: 8300000, guid: 6ead16c2345c7ba42ba0cd57443a09a3, type: 3}
+  carriageReturnSFX: {fileID: 8300000, guid: 8c1e33b9f21773e4c912004700db61ae, type: 3}
+  typewriterVolume: 0.314
+  carriageReturnVolume: 0.601
+  typeDelay: 0.04
+  charsPerSFX: 2
 --- !u!4 &1530548328
 Transform:
   m_ObjectHideFlags: 0
