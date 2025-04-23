@@ -17,8 +17,11 @@ public class DialogueSystem : MonoBehaviour
 
     private Queue<LineData> dialogueQueue;
     private bool isDialogueActive = false;
+    private bool waitingForChoice = false;
 
-
+    private Coroutine typingCoroutine;
+    private bool isTyping = false;
+    private LineData currentDisplayedLine; // ADDED: track current line
 
     void Start()
     {
@@ -38,40 +41,107 @@ public class DialogueSystem : MonoBehaviour
 
         dialoguePanel.SetActive(true);
         isDialogueActive = true;
+        waitingForChoice = false;
         DisplayNextLine();
     }
 
     public void DisplayNextLine()
     {
+        if (waitingForChoice) return;
+
+        if (isTyping)
+        {
+            CompleteTyping();
+            return;
+        }
+
         if (dialogueQueue.Count == 0)
         {
             EndDialogue();
             return;
         }
-        LineData currentLine = dialogueQueue.Dequeue();
 
-        characterNameText.text = currentLine.characterName;
-        portraitImage.sprite = currentLine.portrait;
+        currentDisplayedLine = dialogueQueue.Dequeue();
 
-        StopAllCoroutines();
-        StartCoroutine(TypeText(currentLine.text));
+        characterNameText.text = currentDisplayedLine.characterName;
+        portraitImage.sprite = currentDisplayedLine.portrait;
 
-        if (currentLine.hasChoices && currentLine.choices.Length > 0)
-        {
-            ShowChoices(currentLine.choices);
-        }
+        if (typingCoroutine != null)
+            StopCoroutine(typingCoroutine);
+
+        typingCoroutine = StartCoroutine(TypeText(currentDisplayedLine.text));
     }
 
     IEnumerator TypeText(string line)
     {
+        isTyping = true;
         dialogueText.text = "";
+
         foreach (char letter in line.ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(0.04f);
         }
+
+        isTyping = false;
+
+        // After text finishes typing, check if choices exist
+        if (currentDisplayedLine.hasChoices && currentDisplayedLine.choices.Length > 0)
+        {
+            waitingForChoice = true;
+            ShowChoices(currentDisplayedLine.choices);
+        }
     }
 
+    void CompleteTyping()
+    {
+        if (typingCoroutine != null)
+            StopCoroutine(typingCoroutine);
+
+        dialogueText.text = currentDisplayedLine.text;
+        isTyping = false;
+
+        if (currentDisplayedLine.hasChoices && currentDisplayedLine.choices.Length > 0)
+        {
+            waitingForChoice = true;
+            ShowChoices(currentDisplayedLine.choices);
+        }
+    }
+
+    void ShowChoices(DialogueChoice[] choices)
+    {
+        choicesPanel.SetActive(true);
+
+        // Clear previous buttons
+        foreach (Transform child in choicesPanel.transform)
+        {
+            Destroy(child.gameObject);
+        }
+
+        for (int i = 0; i < choices.Length; i++)
+        {
+            DialogueChoice choice = choices[i];
+            GameObject buttonObj = Instantiate(choiceButtonPrefab, choicesPanel.transform);
+            TextMeshProUGUI buttonText = buttonObj.GetComponentInChildren<TextMeshProUGUI>();
+            buttonText.text = choice.choiceText;
+
+            Button button = buttonObj.GetComponent<Button>();
+            button.onClick.AddListener(() =>
+            {
+                choicesPanel.SetActive(false);
+                waitingForChoice = false;
+
+                if (choice.nextDialogue != null)
+                {
+                    StartDialogue(choice.nextDialogue);
+                }
+                else
+                {
+                    DisplayNextLine();
+                }
+            });
+        }
+    }
 
     public void EndDialogue()
     {
@@ -86,39 +156,8 @@ public class DialogueSystem : MonoBehaviour
             DisplayNextLine();
         }
     }
-
-    void ShowChoices(DialogueChoice[] choices)
-    {
-        choicesPanel.SetActive(true);
-
-        // Clear existing buttons
-        foreach (Transform child in choicesPanel.transform)
-        {
-            Destroy(child.gameObject);
-        }
-
-        foreach (DialogueChoice choice in choices)
-        {
-            GameObject buttonObj = Instantiate(choiceButtonPrefab, choicesPanel.transform);
-            TextMeshProUGUI buttonText = buttonObj.GetComponentInChildren<TextMeshProUGUI>();
-            buttonText.text = choice.choiceText;
-
-            Button button = buttonObj.GetComponent<Button>();
-            button.onClick.AddListener(() =>
-            {
-                choicesPanel.SetActive(false);
-                if (choice.nextDialogue != null)
-                {
-                    StartDialogue(choice.nextDialogue); // Branch to another dialogue
-                }
-                else
-                {
-                    DisplayNextLine(); // Continue current dialogue if no branch
-                }
-            });
-        }
-    }
 }
+
 
 
 
