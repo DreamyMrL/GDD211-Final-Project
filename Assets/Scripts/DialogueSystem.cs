@@ -155,28 +155,39 @@ public class DialogueSystem : MonoBehaviour
         }
 
         for (int i = 0; i < choices.Length; i++)
+    {
+        DialogueChoice choice = choices[i];
+        GameObject buttonObj = Instantiate(choiceButtonPrefab, choicesPanel.transform);
+
+        // 🔥 RESET RectTransform scale and position
+        RectTransform rt = buttonObj.GetComponent<RectTransform>();
+        rt.localScale = Vector3.one;
+        rt.anchoredPosition3D = Vector3.zero;
+        rt.offsetMin = Vector2.zero;
+        rt.offsetMax = Vector2.zero;
+
+        // 🚨 Force a clean size (this solves 99% of huge button issues)
+        rt.sizeDelta = new Vector2(400f, 80f); // Width x Height
+
+        TextMeshProUGUI buttonText = buttonObj.GetComponentInChildren<TextMeshProUGUI>();
+        buttonText.text = choice.choiceText;
+
+        Button button = buttonObj.GetComponent<Button>();
+        button.onClick.AddListener(() =>
         {
-            DialogueChoice choice = choices[i];
-            GameObject buttonObj = Instantiate(choiceButtonPrefab, choicesPanel.transform);
-            TextMeshProUGUI buttonText = buttonObj.GetComponentInChildren<TextMeshProUGUI>();
-            buttonText.text = choice.choiceText;
+            choicesPanel.SetActive(false);
+            waitingForChoice = false;
 
-            Button button = buttonObj.GetComponent<Button>();
-            button.onClick.AddListener(() =>
+            if (choice.nextDialogue != null)
             {
-                choicesPanel.SetActive(false);
-                waitingForChoice = false;
-
-                if (choice.nextDialogue != null)
-                {
-                    StartDialogue(choice.nextDialogue);
-                }
-                else
-                {
-                    DisplayNextLine();
-                }
-            });
-        }
+                StartDialogue(choice.nextDialogue);
+            }
+            else
+            {
+                DisplayNextLine();
+            }
+        });
+    }
     }
 
     public void EndDialogue()
