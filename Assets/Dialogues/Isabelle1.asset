@@ -27,7 +27,7 @@ MonoBehaviour:
   - characterName: Isabelle
     text: At least you finally got him to move. We should head inside.
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
-    hasChoices: 0
+    hasChoices: 1
     choices:
     - choiceText: Head inside
       nextDialogue: {fileID: 11400000, guid: 970a4b2aaea314ae5adfd69ee0117b22, type: 2}

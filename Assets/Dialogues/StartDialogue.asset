@@ -55,9 +55,8 @@ MonoBehaviour:
     hasChoices: 0
     choices: []
   - characterName: 
-    text: You step out of the car, waving to Isabelle who appraoches you with an
-      irritated look on her face
-    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    text: 
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
   - characterName: Isabelle
@@ -88,8 +87,8 @@ MonoBehaviour:
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
-  - characterName: Player
-    text: Right, well maybe I can get something out of them.
+  - characterName: 
+    text: 
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
@@ -103,7 +102,7 @@ MonoBehaviour:
     choices: []
   - characterName: 
     text: What do you want?
-    portrait: {fileID: 0}
+    portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
     hasChoices: 0
     choices: []
   - characterName: Player
@@ -113,7 +112,7 @@ MonoBehaviour:
     choices: []
   - characterName: Player
     text: And why should I tell some random PI anything? We got it covered here.
-    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
     hasChoices: 1
     choices:
     - choiceText: The owner hired me

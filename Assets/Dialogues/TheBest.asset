@@ -24,7 +24,7 @@ MonoBehaviour:
     text: Isabelle looks almost as mad at me as this guy does, maybe I shouldn't
       have tried to be funny.
     portrait: {fileID: 0}
-    hasChoices: 0
+    hasChoices: 1
     choices:
     - choiceText: The owner hired me
       nextDialogue: {fileID: 11400000, guid: 1afa3c2da5a1543d4a339d2d32a63399, type: 2}
