@@ -897,10 +897,10 @@ MonoBehaviour:
     m_Bottom: 0
   m_ChildAlignment: 1
   m_Spacing: 10
-  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 1
-  m_ChildControlHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
@@ -1452,13 +1452,6 @@ MonoBehaviour:
   dialoguePanel: {fileID: 634782822}
   choicesPanel: {fileID: 774240835}
   choiceButtonPrefab: {fileID: 1402349971922663404, guid: f36f2f0009bf041f1b952f783773763f, type: 3}
-  typewriterSFX1: {fileID: 8300000, guid: 3d9ae8fb6cf7edc4eb8478485c6893b2, type: 3}
-  typewriterSFX2: {fileID: 8300000, guid: 6ead16c2345c7ba42ba0cd57443a09a3, type: 3}
-  carriageReturnSFX: {fileID: 8300000, guid: 8c1e33b9f21773e4c912004700db61ae, type: 3}
-  typewriterVolume: 0.314
-  carriageReturnVolume: 0.601
-  typeDelay: 0.04
-  charsPerSFX: 2
 --- !u!4 &1530548328
 Transform:
   m_ObjectHideFlags: 0

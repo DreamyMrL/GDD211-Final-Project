@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: Isabelle1
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: You turn to Isabelle, she seems equal parts surprised and irritated.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: That guy has some serious issues, he kinda reminds me of that history professor
+      you had at school, that guy was insane.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: At least you finally got him to move. We should head inside.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices:
+    - choiceText: Head inside
+      nextDialogue: {fileID: 11400000, guid: 970a4b2aaea314ae5adfd69ee0117b22, type: 2}

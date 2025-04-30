@@ -10,18 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
-  m_Name: GoInsideData
+  m_Name: HeadInside
   m_EditorClassIdentifier: 
   lines:
   - characterName: 
-    text: You enter the aquarium entranceway. There you see a ticket booth that has
-      a bored looking employee in it. As you move towards the booth the employee
-      looks up.
-    portrait: {fileID: 0}
-    hasChoices: 0
-    choices: []
-  - characterName: Employee
-    text: What do you want? I have already told the cops everything I know.
+    text: End of playtest
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
