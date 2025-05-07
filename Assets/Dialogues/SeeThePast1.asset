@@ -43,3 +43,4 @@ MonoBehaviour:
   isAudioTriggered: 0
   musicTrackName: ReFantasia
   sfxName: 
+  background: {fileID: 5063691180484449305, guid: 06af4834402044702a24f3e0e1b33b4f, type: 3}

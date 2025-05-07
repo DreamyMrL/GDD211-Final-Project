@@ -23,14 +23,14 @@ MonoBehaviour:
     musicTrackName: minuet
   - characterName: 
     text: As you move towards the booth the employee looks up.
-    portrait: {fileID: -5406531530088523295, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
+    portrait: {fileID: 8094105171276361706, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
     hasChoices: 0
     choices: []
     triggerMusicSwitch: 0
     musicTrackName: 
   - characterName: Employee
     text: What do you want? I already told the cops everything I know.
-    portrait: {fileID: -5406531530088523295, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
+    portrait: {fileID: 8094105171276361706, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
     hasChoices: 1
     choices:
     - choiceText: About the case
@@ -42,3 +42,4 @@ MonoBehaviour:
   isAudioTriggered: 0
   musicTrackName: minuet
   sfxName: 
+  background: {fileID: 5063691180484449305, guid: 06af4834402044702a24f3e0e1b33b4f, type: 3}

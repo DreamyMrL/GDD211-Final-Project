@@ -23,3 +23,9 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: d2d59f08cefd8450ab3ae596d0d3306f, type: 2}
     - choiceText: Stuck here a while?
       nextDialogue: {fileID: 11400000, guid: c06212ae79e1942508bb7319504810c9, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 
+  background: {fileID: 5063691180484449305, guid: 06af4834402044702a24f3e0e1b33b4f, type: 3}

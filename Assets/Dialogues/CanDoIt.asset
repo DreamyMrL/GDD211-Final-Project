@@ -18,6 +18,8 @@ MonoBehaviour:
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: You are currently standing in the lobby. As you look around you see a couple
       places you could hide.
@@ -30,3 +32,9 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 863615fa2cb984bd5aa06bfa577cdd6f, type: 2}
     - choiceText: In plain sight
       nextDialogue: {fileID: 11400000, guid: 290fce966504f494ab1946e8dddf13d4, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 
+  background: {fileID: 5063691180484449305, guid: 06af4834402044702a24f3e0e1b33b4f, type: 3}

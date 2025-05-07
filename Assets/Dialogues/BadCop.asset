@@ -20,6 +20,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Miss Marin I did not come here to play games with you. I was hired to get
       to the bottom of this, and quite frankly if you continue to evade my questions
@@ -29,38 +31,52 @@ MonoBehaviour:
     portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Miss Marin
     text: His name is Jacob Mills. He worked here almost four years, but I fired
       him about six months ago.
     portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Why did you fire him?
     portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Miss Marin
     text: He was stealing from the register in the gift shop. I let it go for a little
       while but he started taking more and I just couldn't let it slide.
     portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: That's all?
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Miss Marin
     text: That's all.
     portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: Her voice was shaky as she answered, you've certainly got her rattled.
     portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: She can't bring herself to meet your eyes. This may not be the whole story,
       but it seems like all you'll be getting from her for now.
@@ -69,3 +85,9 @@ MonoBehaviour:
     choices:
     - choiceText: Exit the office
       nextDialogue: {fileID: 11400000, guid: f78df47962cf2425f8dbbf304b1d3bc8, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 
+  background: {fileID: -3695649796575350530, guid: 9af153fa5d31a4c38a8fc87a40d3419b, type: 3}

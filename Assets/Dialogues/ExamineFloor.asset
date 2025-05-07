@@ -20,6 +20,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: Seems like an odd time for a routine clean...
     portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
@@ -27,3 +29,9 @@ MonoBehaviour:
     choices:
     - choiceText: Investigate the tank
       nextDialogue: {fileID: 11400000, guid: 7ec44ac59e7e24d6297f05c62cabbec6, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 
+  background: {fileID: 5063691180484449305, guid: 06af4834402044702a24f3e0e1b33b4f, type: 3}

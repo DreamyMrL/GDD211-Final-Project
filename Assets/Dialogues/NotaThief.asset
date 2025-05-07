@@ -20,12 +20,16 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: You enter and scan the exhibit room, looking for a tank that suits your
       plan.
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: "You scan the room, looking for a tank that suits your plan. \n\nEventually
       you find one, with a low barrier and harmless fish inhabiting it. You approach
@@ -33,6 +37,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: The cold water feels like a shock as it covers your body. You feel a few
       fish brush against you in their panic to get out of your way. As you surface
@@ -40,11 +46,15 @@ MonoBehaviour:
     portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Sorry... I fell in.
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: Several employees, wearing the appropriate safety gear, climb into the
       tank to help you get out. Miss Marin continues glaring at you as you stand
@@ -52,16 +62,22 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Miss Marin
     text: I can not fathom what posessed someone to recommend you to me.
     portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Someone recommended me? Who?
     portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Miss Marin
     text: How should I know? I received one of your business cards in the mail this
       morning, along with a newspaper article about a murder you solved a few months
@@ -69,29 +85,39 @@ MonoBehaviour:
     portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: 5 minutes later...
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: Isabelle is waiting for you in the lobby outside Miss Marin's office. She
       makes no attempt to hide her laughter when she sees your current state.
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: Well, that's one way to cause a distraction. Can't say it's what I would've
       done!
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: There have been enough arguments already, I'm not letting you start another
       one. Did you find what you were looking for?
     portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: Of course I did, Jacob's employee records were very interesting. First
       of all, you'll never guess his ability. It's a sort of invulnerability, the
@@ -100,11 +126,15 @@ MonoBehaviour:
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Then how the hell did he end up with his arm cut off?
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: 'Hell if I know! Plenty of abilities like that have some kind of weakness
       or loophole. It''s obviously not impossible but this does complicate things.
@@ -112,6 +142,8 @@ MonoBehaviour:
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: He wasn't too happy about it and made a number of threats against Miss
       Marin. Plus, none of the money he stole from the register was ever recovered,
@@ -119,6 +151,8 @@ MonoBehaviour:
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: That does seem pretty suspicious, but there's something bothering me. Someone
       recommended me to Miss Marin. She was sent my business card, and that writing
@@ -127,23 +161,31 @@ MonoBehaviour:
     portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: The only way it could've been seen is by someone with my ability. There's
       something personal about this.
     portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: A little egotistical of you, don't you think? But, you have a point. I
       think we need to know more about the owner, what's her ability?
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: You just want the chance to use yours...
     portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: Damn right!
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
@@ -151,6 +193,9 @@ MonoBehaviour:
     choices:
     - choiceText: What's the plan
       nextDialogue: {fileID: 11400000, guid: 54ef8701df4a0435b85928402205def5, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
   isAudioTriggered: 0
   musicTrackName: 
   sfxName: 
+  background: {fileID: 5063691180484449305, guid: 06af4834402044702a24f3e0e1b33b4f, type: 3}

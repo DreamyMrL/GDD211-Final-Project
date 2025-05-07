@@ -10,6 +10,8 @@ public class DialogueSystem : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public Image portraitImage;
     public GameObject dialoguePanel;
+    public Image backgroundImage; // Reference to the background UI image
+
 
     [Header("Choices")]
     public GameObject choicesPanel;
@@ -50,6 +52,11 @@ public class DialogueSystem : MonoBehaviour
 
     public void StartDialogue(DialogueData dialogueData)
     {
+        if (dialogueData.background != null)
+        {
+            backgroundImage.sprite = dialogueData.background;
+        }
+
         dialogueQueue.Clear();
         foreach (LineData line in dialogueData.lines)
         {

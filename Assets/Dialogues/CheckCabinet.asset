@@ -19,12 +19,16 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: You approach the cabinet and open it, navigating to the 'M' section. Jacob
       Mills's file isn't difficult to find.
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: It contains mostly standard information, full legal name, age, date of
       birth, date of hiring and termination, interview records. There are two sections
@@ -32,6 +36,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: First, Jacob's ability was a kind of invulnerability. The brief summary
       given in the file states that his skin could not be cut or severed. You understand
@@ -41,6 +47,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: Second, the record of his termination comes with a lengthy incident report.
       A report that details a number of threats made by Mr. Mills towards Miss Marin.
@@ -48,6 +56,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: You close the file and return it to its place.
     portrait: {fileID: 0}
@@ -55,3 +65,9 @@ MonoBehaviour:
     choices:
     - choiceText: Step back
       nextDialogue: {fileID: 11400000, guid: ff0e1ab18a7744a66b19bb1a2e5770b1, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 
+  background: {fileID: -3695649796575350530, guid: 9af153fa5d31a4c38a8fc87a40d3419b, type: 3}

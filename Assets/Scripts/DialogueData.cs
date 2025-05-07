@@ -8,5 +8,7 @@ public class DialogueData : ScriptableObject
     public bool isAudioTriggered;
     public string musicTrackName;
     public string sfxName;
+
+    public Sprite background;
 }
 

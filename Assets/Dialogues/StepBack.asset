@@ -24,3 +24,9 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: eb4e23aa2ef304fe0a771ada1bc74a5e, type: 2}
     - choiceText: Exit the room
       nextDialogue: {fileID: 11400000, guid: d722b1bd2d5ff4670b1a72bb3b159ff2, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 
+  background: {fileID: -3695649796575350530, guid: 9af153fa5d31a4c38a8fc87a40d3419b, type: 3}

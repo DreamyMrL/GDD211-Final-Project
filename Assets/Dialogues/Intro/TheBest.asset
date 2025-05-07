@@ -20,6 +20,8 @@ MonoBehaviour:
     portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: Isabelle looks almost as mad at me as this guy does, maybe I shouldn't
       have tried to be funny.
@@ -28,3 +30,9 @@ MonoBehaviour:
     choices:
     - choiceText: The owner hired me
       nextDialogue: {fileID: 11400000, guid: 1afa3c2da5a1543d4a339d2d32a63399, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 
+  background: {fileID: 3323340352846366305, guid: d9357a5e6ce804189a447d803c5e78c0, type: 3}

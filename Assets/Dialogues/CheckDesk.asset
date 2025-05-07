@@ -20,6 +20,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: The circled article is familiar. It's about you, and a murder you solved
       a few months ago. The article speaks highly of you and your skills. This must
@@ -28,6 +30,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: 'As you look back down at the desk you see something that had been hidden
       underneath the newspaper. One of your business cards, the ones you only give
@@ -35,6 +39,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: Did someone send these to her? Who wanted you here?
     portrait: {fileID: 0}
@@ -42,3 +48,9 @@ MonoBehaviour:
     choices:
     - choiceText: Step back
       nextDialogue: {fileID: 11400000, guid: ff0e1ab18a7744a66b19bb1a2e5770b1, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 
+  background: {fileID: -3695649796575350530, guid: 9af153fa5d31a4c38a8fc87a40d3419b, type: 3}

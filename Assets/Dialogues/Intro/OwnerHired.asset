@@ -19,47 +19,65 @@ MonoBehaviour:
     portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: The officer glares at you as he speaks, you suddenly become deeply aware
       of how small you are next to him.
     portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Why not?
     portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Why not?
     portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: The officer looks at you with a very smug look.
     portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Officer
     text: You're getting paid more than I am, I think you better earn it.
     portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: (Wow this guy is really passionate about this....)
     portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Can you at least tell me where the crime scene is?
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Officer
     text: It is down the hall and to the left. Only an idiot could miss it!
     portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: (Did he really have to add that last part..?)
     portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
@@ -69,3 +87,9 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 732efb8c1a778466988e6677da1098d7, type: 2}
     - choiceText: Head inside
       nextDialogue: {fileID: 11400000, guid: 970a4b2aaea314ae5adfd69ee0117b22, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 
+  background: {fileID: 3323340352846366305, guid: d9357a5e6ce804189a447d803c5e78c0, type: 3}

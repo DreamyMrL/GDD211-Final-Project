@@ -133,3 +133,4 @@ MonoBehaviour:
   isAudioTriggered: 0
   musicTrackName: Sonata
   sfxName: 
+  background: {fileID: -3695649796575350530, guid: 9af153fa5d31a4c38a8fc87a40d3419b, type: 3}

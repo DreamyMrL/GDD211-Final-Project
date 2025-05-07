@@ -19,6 +19,8 @@ MonoBehaviour:
     portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: The owner made you drain the tank? That seems odd.
     portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
@@ -26,3 +28,9 @@ MonoBehaviour:
     choices:
     - choiceText: Examine coral tank
       nextDialogue: {fileID: 11400000, guid: a92b80caf79324ca68671dfa04b8ee9d, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 
+  background: {fileID: 5063691180484449305, guid: 06af4834402044702a24f3e0e1b33b4f, type: 3}
