@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: ExamineCoralTank
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: You take a closer look at the soft coral tank. You can now see that the
+      water has been drained and that all the coral has been moved someplace else.
+    portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: The officer seems to be annoyed about this turn of events.
+    portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: The officer seems to be annoyed about this turn of events.
+    portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: Is there an issue with that?
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Officer
+    text: That owner is one stubborn lady... She wouldn't budge when the boss told
+      her not to drain the tank until after we examined the scene more.
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: Hmmm... That's interesting. I should make sure to speak to the owner later...
+    portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: (Seems like it's time to use my ability, seeing how this room looked 8
+      hours ago will probably give me something to go off of)
+    portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
+    hasChoices: 1
+    choices:
+    - choiceText: SEE THE PAST
+      nextDialogue: {fileID: 0}

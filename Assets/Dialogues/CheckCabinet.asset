@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: CheckCabinet
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: There is a large filing cabinet against the back wall. The employee recods
+      for Jacob Mills are most likely in there somewhere.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You approach the cabinet and open it, navigating to the 'M' section. Jacob
+      Mills's file isn't difficult to find.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: It contains mostly standard information, full legal name, age, date of
+      birth, date of hiring and termination, interview records. There are two sections
+      that catch your eye.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: First, Jacob's ability was a kind of invulnerability. The brief summary
+      given in the file states that his skin could not be cut or severed. You understand
+      that most abilities are more complicated than just that, and the information
+      in an employee file likely would not cover the more...nuanced aspects of it.
+      But, this certainly makes you wonder how his arm could've been severed.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: Second, the record of his termination comes with a lengthy incident report.
+      A report that details a number of threats made by Mr. Mills towards Miss Marin.
+      It seems that anything stolen by Mr. Mills was not recovered by the owner.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You close the file and return it to its place.
+    portrait: {fileID: 0}
+    hasChoices: 1
+    choices:
+    - choiceText: Step back
+      nextDialogue: {fileID: 11400000, guid: ff0e1ab18a7744a66b19bb1a2e5770b1, type: 2}

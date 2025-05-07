@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: InvestigateTank
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: As you step closer to the tank you can see that the water near the top
+      is stained red, the arm is floating at the top.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: As you get closer  you notice a mark, it seems the victim had a small tattoo
+      of an anchor on their forearm. This should help you identify the victim.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: 'When you look more at the tank itself you can see that there is something
+      written on it in marker. '
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: It says "Piscem natare doces"
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: This isn't here in the present, I wonder when it got erased. Why would
+      someone write it in the first place? It looks like latin. I know Isabelle took
+      latin in school, maybe she'll recognize it...
+    portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: Alright. Time to head back.
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 1
+    choices:
+    - choiceText: RETURN TO PRESENT
+      nextDialogue: {fileID: 11400000, guid: 549050fc1ac0c425ea26cb185758a559, type: 2}

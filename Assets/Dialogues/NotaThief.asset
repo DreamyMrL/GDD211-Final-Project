@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: NotaThief
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: You have no doubt what Isabelle's choice of distraction would've been,
+      but there have been enough arguments already. Although, your idea is no more
+      elegant than hers would've been.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You enter and scan the exhibit room, looking for a tank that suits your
+      plan.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: "You scan the room, looking for a tank that suits your plan. \n\nEventually
+      you find one, with a low barrier and harmless fish inhabiting it. You approach
+      the railing and take a deep breath, now or never I guess."
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: The cold water feels like a shock as it covers your body. You feel a few
+      fish brush against you in their panic to get out of your way. As you surface
+      you find yourself squinting up at Miss Marin, who looks beyond tired of you.
+    portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: Sorry... I fell in.
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: Several employees, wearing the appropriate safety gear, climb into the
+      tank to help you get out. Miss Marin continues glaring at you as you stand
+      there soaking wet.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: Miss Marin
+    text: I can not fathom what posessed someone to recommend you to me.
+    portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: Someone recommended me? Who?
+    portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Miss Marin
+    text: How should I know? I received one of your business cards in the mail this
+      morning, along with a newspaper article about a murder you solved a few months
+      ago, but I can only assume that was pure dumb luck.
+    portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: 5 minutes later...
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: Isabelle is waiting for you in the lobby outside Miss Marin's office. She
+      makes no attempt to hide her laughter when she sees your current state.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: Well, that's one way to cause a distraction. Can't say it's what I would've
+      done!
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: There have been enough arguments already, I'm not letting you start another
+      one. Did you find what you were looking for?
+    portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: Of course I did, Jacob's employee records were very interesting. First
+      of all, you'll never guess his ability. It's a sort of invulnerability, the
+      records were vague but it seems like his skin couldn't be cut or severed, so
+      they had him working most of the dangerous jobs.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: Then how the hell did he end up with his arm cut off?
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: 'Hell if I know! Plenty of abilities like that have some kind of weakness
+      or loophole. It''s obviously not impossible but this does complicate things.
+      Second of all, there was quite the incident report for when he was fired. '
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: He wasn't too happy about it and made a number of threats against Miss
+      Marin. Plus, none of the money he stole from the register was ever recovered,
+      sounds like motive to me!
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: That does seem pretty suspicious, but there's something bothering me. Someone
+      recommended me to Miss Marin. She was sent my business card, and that writing
+      I saw on the tank when I used my ability was erased before any employees showed
+      up.
+    portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: The only way it could've been seen is by someone with my ability. There's
+      something personal about this.
+    portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: A little egotistical of you, don't you think? But, you have a point. I
+      think we need to know more about the owner, what's her ability?
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: You just want the chance to use yours...
+    portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: Damn right!
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 1
+    choices:
+    - choiceText: What's the plan
+      nextDialogue: {fileID: 0}

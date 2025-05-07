@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: GoodCop
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: The hesitation in her voice is hard to miss, she pauses between each word
+      as she tries to find the next one. She's being very careful about what she
+      reveals to you here.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: Miss Marin, unlike my associate I have no interest in making any unfounded
+      accusations. You hired me to help and that's what I'm here to do. But I can't
+      do that if I don't know what I'm working with. Please, tell me what you know
+      about this man and let me do my job.
+    portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Miss Marin
+    text: ...I understand. I suppose it's silly of me to hire you and refuse to help.
+      His name is Jacob Mills. He worked here for almost four years but I fired him
+      about six months ago.
+    portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: And what was he fired for?
+    portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Miss Marin
+    text: Stealing. I noticed the register count in the gift shop always seemed to
+      be a little off when he was closing. I let it slide for a little while but
+      we just kept missing more and more and I had to do something about it eventually.
+    portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: That's the whole story?
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Miss Marin
+    text: ...Yes. That's the whole story.
+    portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: Her inability to meet your eyes tells a different story, but this seems
+      like all you'll be getting out of her for now.
+    portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: Thank you for your time, Miss Marin.
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 1
+    choices:
+    - choiceText: Exit the office
+      nextDialogue: {fileID: 11400000, guid: f78df47962cf2425f8dbbf304b1d3bc8, type: 2}

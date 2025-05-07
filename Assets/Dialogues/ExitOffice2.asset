@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: ExitOffice2
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: You've found all you can in the office. You open the door as quietly as
+      possible, checking the hallway for anyone else before stepping out.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You make your way back into the lobby just as the owner comes storming
+      out of the exhibit room and back into her office. Isabelle comes strolling
+      out of the room after her, the smug look on her face is quite familiar to you.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: So, you won your fight then?
+    portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: Of course I did, you found what we needed?
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: I found something alright.
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: You explain what you found in the desk and the filing cabinet.
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: See? I told you that woman had motive. He threatened her, and she never
+      got her money back.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: Right, but how could she with his ability? And what about the business
+      card? Someone recommended me?
+    portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: I've been wondering about the writing on the tank, if it was erased before
+      the arm was ever found it only could've been seen by someone with my ability,
+      or one like it. I wonder if the message was...for me.
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: A little egotistical of you, don't you think? But, you have a point. I
+      think we need to know more about the owner, what's her ability?
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: You just want a chance to use yours.
+    portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: Damn right.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 1
+    choices:
+    - choiceText: What's the plan
+      nextDialogue: {fileID: 0}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: WaitforSignal
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: After a minute you begin to hear raised voices coming from the soft coral
+      exhibit, it seems that Isabelle decided to pick a fight with one of the officers.
+      Not that you expected much else from her.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: It doesn't take long for the owner to come storming out of her office,
+      already muttering angrily about having to break up a fight.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You enter the owner's office to find it the same as it was before, however
+      there are a couple points of interest.
+    portrait: {fileID: 0}
+    hasChoices: 1
+    choices:
+    - choiceText: Desk
+      nextDialogue: {fileID: 0}
+    - choiceText: Filing Cabinet
+      nextDialogue: {fileID: 0}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: StuckHere
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Officer
+    text: Yeah don't I know it. They've had me standing here for hours since the
+      owner was making some big fuss making us drain the tank.
+    portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: The owner made you drain the tank? That seems odd.
+    portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
+    hasChoices: 1
+    choices:
+    - choiceText: Examine coral tank
+      nextDialogue: {fileID: 11400000, guid: a92b80caf79324ca68671dfa04b8ee9d, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: InPlainSight
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: You walk up to one of the generic paintings of fish on the wall, pretending
+      to study it intently. They appear to be clownfish, not that you know much about
+      aquatic life.
+    portrait: {fileID: 0}
+    hasChoices: 1
+    choices:
+    - choiceText: Wait for her signal
+      nextDialogue: {fileID: 0}

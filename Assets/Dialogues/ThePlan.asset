@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: ThePlan
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Isabelle
+    text: Easy, I'll head into her office and tell her I want to apologize. Then
+      I'll shake her hand before I leave, that's all I need.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: Go on, you don't need me for that.
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You watch her turn and make her way towards Miss Marin's office again.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: Isabelle's ability isn't flashy like a lot of people's, but it comes in
+      handy in this line of work. All she needs is a single touch to learn every
+      detail of another person's ability, how it's used, any loopholes or weaknesses.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: After a few minutes she comes back, and the smug look on her face is almost
+      a little frightening.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: What did you find?
+    portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: She has the power to nullify other abilities, Faith.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Demo ends here!
+    text: Thank you for playing!
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []

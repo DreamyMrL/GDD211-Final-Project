@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: CanDoIt
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Isabelle
+    text: Sounds good, better find somewhere to hide while I make a scene.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You are currently standing in the lobby. As you look around you see a couple
+      places you could hide.
+    portrait: {fileID: 0}
+    hasChoices: 1
+    choices:
+    - choiceText: Under the bench
+      nextDialogue: {fileID: 11400000, guid: f88eddd38cc7646bcbcf3a5bbb32b8bb, type: 2}
+    - choiceText: Behind the vending
+      nextDialogue: {fileID: 11400000, guid: 863615fa2cb984bd5aa06bfa577cdd6f, type: 2}
+    - choiceText: In plain sight
+      nextDialogue: {fileID: 11400000, guid: 290fce966504f494ab1946e8dddf13d4, type: 2}

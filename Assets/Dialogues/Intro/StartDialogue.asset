@@ -61,7 +61,7 @@ MonoBehaviour:
     choices: []
   - characterName: Isabelle
     text: You step out of the car, waving to Isabelle who appraoches you with an
-      irritated look on her face
+      irritated look on her face.
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []

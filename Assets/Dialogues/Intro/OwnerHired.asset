@@ -27,12 +27,12 @@ MonoBehaviour:
     choices: []
   - characterName: Player
     text: Why not?
-    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
     hasChoices: 0
     choices: []
   - characterName: Player
     text: Why not?
-    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
     hasChoices: 0
     choices: []
   - characterName: 
@@ -47,7 +47,7 @@ MonoBehaviour:
     choices: []
   - characterName: 
     text: (Wow this guy is really passionate about this....)
-    portrait: {fileID: 0}
+    portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
     hasChoices: 0
     choices: []
   - characterName: Player
@@ -62,7 +62,7 @@ MonoBehaviour:
     choices: []
   - characterName: 
     text: (Did he really have to add that last part..?)
-    portrait: {fileID: 0}
+    portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
     hasChoices: 1
     choices:
     - choiceText: Talk to Isabelle

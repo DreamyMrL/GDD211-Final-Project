@@ -10,18 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
-  m_Name: NewDialogue
+  m_Name: UnderBench
   m_EditorClassIdentifier: 
   lines:
   - characterName: 
-    text: 
+    text: You lay down on the floor in front of one of the lobby benches, and carefully
+      roll yourself underneath it. There are quite a few candy wrappers and cheap
+      gift shop toys dropped back here.
     portrait: {fileID: 0}
     hasChoices: 1
     choices:
-    - choiceText: 
+    - choiceText: Wait for her signal
       nextDialogue: {fileID: 0}
-  - characterName: 
-    text: 
-    portrait: {fileID: 0}
-    hasChoices: 0
-    choices: []

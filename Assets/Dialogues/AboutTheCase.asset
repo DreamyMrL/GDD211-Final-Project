@@ -10,26 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
-  m_Name: HeadInside
+  m_Name: AboutTheCase
   m_EditorClassIdentifier: 
   lines:
-  - characterName: 
-    text: You step into the aquarium entranceway. There you see a ticket booth with
-      a tired looking employee in it.
-    portrait: {fileID: -5406531530088523295, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
-    hasChoices: 0
-    choices: []
-  - characterName: 
-    text: As you move towards the booth the employee looks up.
-    portrait: {fileID: -5406531530088523295, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
-    hasChoices: 0
-    choices: []
   - characterName: Employee
-    text: What do you want? I already told the cops everything I know.
+    text: I'm not answering any more questions, if you wanna know what happened go
+      ask one of the dozens of cops I already told everything to.
+    portrait: {fileID: -5406531530088523295, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: She rolls her eyes and looks back down at whatever game she was playing
+      on her phone. Seems like she was already questioned pretty thoroughly, maybe
+      the cops were actually doing their jobs today.
     portrait: {fileID: -5406531530088523295, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
     hasChoices: 1
     choices:
-    - choiceText: About the case
-      nextDialogue: {fileID: 11400000, guid: c7c203fa9562c4e61a2f1446cc2a1d95, type: 2}
     - choiceText: Where's the crime scene
       nextDialogue: {fileID: 11400000, guid: 16ec3715a8fdb47e995a89c798b91aea, type: 2}

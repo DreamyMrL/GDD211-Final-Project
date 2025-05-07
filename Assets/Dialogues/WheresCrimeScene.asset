@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: WheresCrimeScene
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: Employee
+    text: It's over that way, the room with all the cops.
+    portrait: {fileID: -5406531530088523295, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: She gestures vaguely down the hallway.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: Thank you for your time.
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 0
+    choices: []
+  - characterName: Player
+    text: You should probably head there.
+    portrait: {fileID: 0}
+    hasChoices: 1
+    choices:
+    - choiceText: Head to crime scene
+      nextDialogue: {fileID: 11400000, guid: 4755d501abee246a390a48151ec884d4, type: 2}
+    - choiceText: Talk to Isabelle
+      nextDialogue: {fileID: 11400000, guid: d9e1ca4318b434db694a037d6ac70f27, type: 2}

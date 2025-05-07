@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: TalktoOfficers
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: You approach one of the officers standing in front of the tank. He looks
+      bored, like he's been standing here much longer than he would've liked.
+    portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
+    hasChoices: 1
+    choices:
+    - choiceText: Just standing here?
+      nextDialogue: {fileID: 11400000, guid: d2d59f08cefd8450ab3ae596d0d3306f, type: 2}
+    - choiceText: Stuck here a while?
+      nextDialogue: {fileID: 11400000, guid: c06212ae79e1942508bb7319504810c9, type: 2}

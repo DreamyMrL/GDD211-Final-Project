@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: ReturntoPresent1
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: When you return to the present everything is exactly as you left it. With
+      a new clue to investigate you make your way to the owner's office to find Isabelle.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You make your way down the hallway to the office. The walls are lined with
+      photos of the aquarium being built, the opening, and group pictures of the
+      employees. One of them catches your eye.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You notice that one of the employees has a tattoo on his arm, one identical
+      to the tattoo on the severed arm in the tank. You need to find out who this
+      man is NOW.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: You continue down the hallway, as you reach the owner's door you can hear
+      raised voices from inside. One of them is definitely Isabelle, she's always
+      had a habit of getting frustrated with witnesses.
+    portrait: {fileID: 0}
+    hasChoices: 1
+    choices:
+    - choiceText: Open the door
+      nextDialogue: {fileID: 11400000, guid: 47cf9a12515d3498ca44ff77e036dcec, type: 2}
+    - choiceText: Stop and listen
+      nextDialogue: {fileID: 11400000, guid: da9ba451c33614ceca504a01e65edf75, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: HeadCrimeScene
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: You enter the coral exhibit. Your eye is drawn to a bunch of officers standing
+      in front of one of the tanks. If not for their presence it would almost seem
+      like a normal day at the aquarium. Isabelle turns to you.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: Isabelle
+    text: I'm gonna see what I can get out of talking to the owner, you should probably
+      focus on out here with your ability.
+    portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
+    hasChoices: 1
+    choices:
+    - choiceText: Talk to officers
+      nextDialogue: {fileID: 11400000, guid: 223f6be3867a7446b8637ed7ef77127a, type: 2}
+    - choiceText: Examine coral tank
+      nextDialogue: {fileID: 11400000, guid: a92b80caf79324ca68671dfa04b8ee9d, type: 2}

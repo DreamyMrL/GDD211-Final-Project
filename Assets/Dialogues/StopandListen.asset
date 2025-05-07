@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: StopandListen
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: You press your ear to the door, Isabelle's voice comes through loud and
+      clear.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: But you made them drain the tank anyway! They should've cuffed you right
+      then for trying to interfere with the investigation!
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: Young lady I did not hire you to storm into my office and make accusations
+      like this! If you don't get out of my office this instant I will call your
+      boss in here to remove you, so help me God!
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: They are NOT my boss.
+    portrait: {fileID: 0}
+    hasChoices: 0
+    choices: []
+  - characterName: 
+    text: Uh oh. Isabelle has always hated it when people treat her like your employee,
+      probably time you step in.
+    portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
+    hasChoices: 1
+    choices:
+    - choiceText: Open the door
+      nextDialogue: {fileID: 11400000, guid: 47cf9a12515d3498ca44ff77e036dcec, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352edd435f429431f8a70dfdeca27953, type: 3}
+  m_Name: StepBack
+  m_EditorClassIdentifier: 
+  lines:
+  - characterName: 
+    text: Anything else...
+    portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
+    hasChoices: 1
+    choices:
+    - choiceText: Desk
+      nextDialogue: {fileID: 11400000, guid: 13acb0e3c8ee54a87a67dd3d18bb65eb, type: 2}
+    - choiceText: Filing Cabinet
+      nextDialogue: {fileID: 11400000, guid: eb4e23aa2ef304fe0a771ada1bc74a5e, type: 2}
+    - choiceText: Exit the room
+      nextDialogue: {fileID: 11400000, guid: d722b1bd2d5ff4670b1a72bb3b159ff2, type: 2}
