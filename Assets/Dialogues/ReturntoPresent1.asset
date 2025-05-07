@@ -19,6 +19,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 1
+    musicTrackName: Majic_Flute
   - characterName: 
     text: You make your way down the hallway to the office. The walls are lined with
       photos of the aquarium being built, the opening, and group pictures of the
@@ -26,6 +28,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: You notice that one of the employees has a tattoo on his arm, one identical
       to the tattoo on the severed arm in the tank. You need to find out who this
@@ -33,6 +37,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: You continue down the hallway, as you reach the owner's door you can hear
       raised voices from inside. One of them is definitely Isabelle, she's always
@@ -44,3 +50,8 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 47cf9a12515d3498ca44ff77e036dcec, type: 2}
     - choiceText: Stop and listen
       nextDialogue: {fileID: 11400000, guid: da9ba451c33614ceca504a01e65edf75, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: Majic_Flute
+  sfxName: 

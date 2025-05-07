@@ -150,4 +150,7 @@ MonoBehaviour:
     hasChoices: 1
     choices:
     - choiceText: What's the plan
-      nextDialogue: {fileID: 0}
+      nextDialogue: {fileID: 11400000, guid: 54ef8701df4a0435b85928402205def5, type: 2}
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 

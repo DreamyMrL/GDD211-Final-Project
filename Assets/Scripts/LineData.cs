@@ -9,5 +9,8 @@ public class LineData
 
     public bool hasChoices;
     public DialogueChoice[] choices;
-}
 
+    [Header("Optional Audio")]
+    public bool triggerMusicSwitch;
+    public string musicTrackName;
+}

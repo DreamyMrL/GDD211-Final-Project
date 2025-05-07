@@ -18,6 +18,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 1
+    musicTrackName: Nocturne
   - characterName: 
     text: In this world each and every person is born with their very own unique
       power. Be it flight, fire-breath, or even the ability to turn into a monkey,
@@ -26,6 +28,8 @@ MonoBehaviour:
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: You are nearing your fifth year as a private detective. Your ability to
       see the state of an area up to 12 hours in the past has served you well in
@@ -34,6 +38,8 @@ MonoBehaviour:
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: Right now it is 11:46AM, and you are sitting in a taxi on your way to your
       newest assignment, at the Metropoliton Aquarium. You received a call from the
@@ -42,11 +48,15 @@ MonoBehaviour:
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: Good luck, detective.
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: You arrive outside the aquarium. A few officers stand posted outside. As
       your taxi pulls up to the curb you recognize a figure standing with them. It's
@@ -54,44 +64,60 @@ MonoBehaviour:
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: 
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: You step out of the car, waving to Isabelle who appraoches you with an
       irritated look on her face.
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: What did I miss?
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: These officers don't seem too happy that the owner called in her own PI,
       they wouldn't tell me a damn thing!
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: Isabelle rolls her eyes. She never did have much patience for people wasting
       her time, not even in college.
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Right, well maybe I can get something out of them.
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: 
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: "You approach the officers. One stands out, his tall stature and impressive
       handlebar mustache definitely set him apart from the others. You\u2019ve been
@@ -100,16 +126,22 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: What do you want?
     portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: I was wondering if I could ask you about the investigation.
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: And why should I tell some random PI anything? We got it covered here.
     portrait: {fileID: 1254972078360548749, guid: b993cce91b76df84a88e81ea2cab0f8a, type: 3}
@@ -119,3 +151,8 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 1afa3c2da5a1543d4a339d2d32a63399, type: 2}
     - choiceText: I'm the best
       nextDialogue: {fileID: 11400000, guid: d7926ff0e2c9441a2ac716b341c72892, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: Nocturne
+  sfxName: 

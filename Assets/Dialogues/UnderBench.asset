@@ -21,4 +21,7 @@ MonoBehaviour:
     hasChoices: 1
     choices:
     - choiceText: Wait for her signal
-      nextDialogue: {fileID: 0}
+      nextDialogue: {fileID: 11400000, guid: 6212a99d8bd764d94b48a93459a01e7d, type: 2}
+  isAudioTriggered: 0
+  musicTrackName: 
+  sfxName: 

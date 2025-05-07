@@ -18,32 +18,44 @@ MonoBehaviour:
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 1
+    musicTrackName: Sonata
   - characterName: Isabelle
     text: What's going on is she's hindering the investigation!
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: Right, well I'm sure that wasn't her intention. Right, Miss...?
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Miss Marin
     text: Marin. Pearl Marin.
     portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Right, Miss Marin. I apologize for my associate's tone. Would you still
       be willing to answer a few questions for us?
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Miss Marin
     text: For you? Fine. But certainly not with her in here.
     portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: Isabelle leans against a wall on the other side of the room. You open your
       mouth to ask her to leave, but the cold stare you're met with makes you hesitate
@@ -51,33 +63,45 @@ MonoBehaviour:
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Sorry, Izzy, I'm gonna have to handle this one without you.
     portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: Isabelle says nothing as she exits the room, but you feel her sharp glare
       drilling into the back of your head until she slams the door behind her.
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Are you willing to answer my questions now? Or, well, it's really only
       one.
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Miss Marin
     text: I suppose so.
     portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Who is this?
     portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: You glance around the room and spot another of those employee photos hanging
       on the wall. You approach it and point at the man you suspect to be the victim
@@ -85,12 +109,16 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Miss Marin
     text: That's...an old employee. He hasn't worked here in months I don't see what
       he has to do with this investigation.
     portrait: {fileID: 703918140911965262, guid: 4e498754b9f9c274388d11d7b9efb896, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: (...How do I play this...?)
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
@@ -100,3 +128,8 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: c44ac62456c7a40dbb422c582e0ceaec, type: 2}
     - choiceText: Bad Cop
       nextDialogue: {fileID: 11400000, guid: e957c393af6f44f9799a23778810272b, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: Sonata
+  sfxName: 

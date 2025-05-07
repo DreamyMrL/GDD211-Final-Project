@@ -1,8 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
 
 public class DialogueSystem : MonoBehaviour
 {
@@ -15,25 +15,42 @@ public class DialogueSystem : MonoBehaviour
     public GameObject choicesPanel;
     public GameObject choiceButtonPrefab;
 
+    [Header("Audio")]
+    [Range(0f, 1f)] public float musicVolume = 1f;
+    [Range(0f, 1f)] public float typewriterVolume = 1f;
+    [Range(0f, 1f)] public float carriageReturnVolume = 1f;
+    public AudioClip[] musicClips;
+    public AudioClip typewriterSFX1;
+    public AudioClip typewriterSFX2;
+    public AudioClip carriageReturnSFX;
+    private AudioSource musicSource;
     private Queue<LineData> dialogueQueue;
     private bool isDialogueActive = false;
     private bool waitingForChoice = false;
-
     private Coroutine typingCoroutine;
     private bool isTyping = false;
-    private LineData currentDisplayedLine; // ADDED: track current line
+    private LineData currentDisplayedLine;
+    public float typeDelay = 0.04f;
+    public int charsPerSFX = 2;
+
+    private AudioSource audioSource;
 
     void Start()
     {
         dialogueQueue = new Queue<LineData>();
         dialoguePanel.SetActive(false);
         choicesPanel.SetActive(false);
+
+        // Create internal music AudioSource
+        musicSource = gameObject.AddComponent<AudioSource>();
+        musicSource.loop = true;
+        musicSource.volume = musicVolume;
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     public void StartDialogue(DialogueData dialogueData)
     {
         dialogueQueue.Clear();
-
         foreach (LineData line in dialogueData.lines)
         {
             dialogueQueue.Enqueue(line);
@@ -61,31 +78,58 @@ public class DialogueSystem : MonoBehaviour
             return;
         }
 
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
+        }
+
         currentDisplayedLine = dialogueQueue.Dequeue();
+
+        if (currentDisplayedLine.triggerMusicSwitch && !string.IsNullOrEmpty(currentDisplayedLine.musicTrackName))
+        {
+            PlayMusicByName(currentDisplayedLine.musicTrackName);
+        }
 
         characterNameText.text = currentDisplayedLine.characterName;
         portraitImage.sprite = currentDisplayedLine.portrait;
 
-        if (typingCoroutine != null)
-            StopCoroutine(typingCoroutine);
-
         typingCoroutine = StartCoroutine(TypeText(currentDisplayedLine.text));
+    }
+
+    void PlayMusicByName(string name)
+    {
+        AudioClip foundClip = System.Array.Find(musicClips, c => c.name == name);
+        if (foundClip != null && musicSource.clip != foundClip)
+        {
+            musicSource.clip = foundClip;
+            musicSource.Play();
+        }
     }
 
     IEnumerator TypeText(string line)
     {
         isTyping = true;
         dialogueText.text = "";
-
+        int charCount = 0;
         foreach (char letter in line.ToCharArray())
         {
             dialogueText.text += letter;
+            charCount++;
+            if (charCount % charsPerSFX == 0)
+            {
+                PlayRandomTypewriterSFX();
+            }
             yield return new WaitForSeconds(0.04f);
         }
 
         isTyping = false;
 
-        // After text finishes typing, check if choices exist
+        if (carriageReturnSFX != null)
+        {
+            audioSource.PlayOneShot(carriageReturnSFX, carriageReturnVolume);
+        }
+
         if (currentDisplayedLine.hasChoices && currentDisplayedLine.choices.Length > 0)
         {
             waitingForChoice = true;
@@ -96,7 +140,10 @@ public class DialogueSystem : MonoBehaviour
     void CompleteTyping()
     {
         if (typingCoroutine != null)
+        {
             StopCoroutine(typingCoroutine);
+            typingCoroutine = null;
+        }
 
         dialogueText.text = currentDisplayedLine.text;
         isTyping = false;
@@ -112,15 +159,13 @@ public class DialogueSystem : MonoBehaviour
     {
         choicesPanel.SetActive(true);
 
-        // Clear previous buttons
         foreach (Transform child in choicesPanel.transform)
         {
             Destroy(child.gameObject);
         }
 
-        for (int i = 0; i < choices.Length; i++)
+        foreach (DialogueChoice choice in choices)
         {
-            DialogueChoice choice = choices[i];
             GameObject buttonObj = Instantiate(choiceButtonPrefab, choicesPanel.transform);
             TextMeshProUGUI buttonText = buttonObj.GetComponentInChildren<TextMeshProUGUI>();
             buttonText.text = choice.choiceText;
@@ -142,11 +187,21 @@ public class DialogueSystem : MonoBehaviour
             });
         }
     }
+    void PlayRandomTypewriterSFX()
+    {
+        if (typewriterSFX1 == null || typewriterSFX2 == null) return;
+
+        AudioClip clip = Random.value < 0.5f ? typewriterSFX1 : typewriterSFX2;
+        audioSource.pitch = Random.Range(0.95f, 1.05f);
+        audioSource.PlayOneShot(clip, typewriterVolume);
+        audioSource.pitch = 1f;
+    }
 
     public void EndDialogue()
     {
         dialoguePanel.SetActive(false);
         isDialogueActive = false;
+        musicSource.Stop();
     }
 
     void Update()
@@ -157,8 +212,3 @@ public class DialogueSystem : MonoBehaviour
         }
     }
 }
-
-
-
-
-

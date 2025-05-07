@@ -19,11 +19,15 @@ MonoBehaviour:
     portrait: {fileID: -5406531530088523295, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 1
+    musicTrackName: minuet
   - characterName: 
     text: As you move towards the booth the employee looks up.
     portrait: {fileID: -5406531530088523295, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Employee
     text: What do you want? I already told the cops everything I know.
     portrait: {fileID: -5406531530088523295, guid: c65b92488423d104f9668d1b09fa5ecc, type: 3}
@@ -33,3 +37,8 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: c7c203fa9562c4e61a2f1446cc2a1d95, type: 2}
     - choiceText: Where's the crime scene
       nextDialogue: {fileID: 11400000, guid: 16ec3715a8fdb47e995a89c798b91aea, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: minuet
+  sfxName: 

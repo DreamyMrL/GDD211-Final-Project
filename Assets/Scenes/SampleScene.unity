@@ -1315,6 +1315,20 @@ MonoBehaviour:
   dialoguePanel: {fileID: 634782822}
   choicesPanel: {fileID: 774240835}
   choiceButtonPrefab: {fileID: 1402349971922663404, guid: f36f2f0009bf041f1b952f783773763f, type: 3}
+  musicVolume: 1
+  typewriterVolume: 1
+  carriageReturnVolume: 1
+  musicClips:
+  - {fileID: 8300000, guid: 220e1024bc5e4944fa5bd4278b75a5e5, type: 3}
+  - {fileID: 8300000, guid: 177896d6b0e332341bd26e610acc4474, type: 3}
+  - {fileID: 8300000, guid: 2e822848dfa5b8c4f94a64db407e9655, type: 3}
+  - {fileID: 8300000, guid: c125f2fce8fc66946b9175cb3ddc6afd, type: 3}
+  - {fileID: 8300000, guid: 7bc9b0e0794f2044e9e2fef3b2871014, type: 3}
+  typewriterSFX1: {fileID: 8300000, guid: 3d9ae8fb6cf7edc4eb8478485c6893b2, type: 3}
+  typewriterSFX2: {fileID: 8300000, guid: 6ead16c2345c7ba42ba0cd57443a09a3, type: 3}
+  carriageReturnSFX: {fileID: 8300000, guid: 8c1e33b9f21773e4c912004700db61ae, type: 3}
+  typeDelay: 0.04
+  charsPerSFX: 5
 --- !u!4 &1530548328
 Transform:
   m_ObjectHideFlags: 0

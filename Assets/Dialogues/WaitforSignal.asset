@@ -20,12 +20,16 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 1
+    musicTrackName: Sonata
   - characterName: 
     text: It doesn't take long for the owner to come storming out of her office,
       already muttering angrily about having to break up a fight.
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: You enter the owner's office to find it the same as it was before, however
       there are a couple points of interest.
@@ -33,6 +37,11 @@ MonoBehaviour:
     hasChoices: 1
     choices:
     - choiceText: Desk
-      nextDialogue: {fileID: 0}
+      nextDialogue: {fileID: 11400000, guid: 13acb0e3c8ee54a87a67dd3d18bb65eb, type: 2}
     - choiceText: Filing Cabinet
-      nextDialogue: {fileID: 0}
+      nextDialogue: {fileID: 11400000, guid: eb4e23aa2ef304fe0a771ada1bc74a5e, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: Sonata
+  sfxName: 

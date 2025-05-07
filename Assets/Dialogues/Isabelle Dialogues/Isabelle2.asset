@@ -19,6 +19,8 @@ MonoBehaviour:
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 1
+    musicTrackName: Sonata
   - characterName: Isabelle
     text: You'd think she would have a little more respect for the investigation,
       this is probably the most exciting thing that's ever happened here.
@@ -27,3 +29,8 @@ MonoBehaviour:
     choices:
     - choiceText: Head to crime scene
       nextDialogue: {fileID: 11400000, guid: 4755d501abee246a390a48151ec884d4, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: Sonata
+  sfxName: 

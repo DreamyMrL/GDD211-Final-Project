@@ -19,62 +19,84 @@ MonoBehaviour:
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 1
+    musicTrackName: minuet
   - characterName: Isabelle
     text: Got the information you needed? Without me?
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: I'm sorry Isabelle, but she wasn't gonna talk with you in there. You made
       a pretty strong first impression...
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: It's fine! I'm just your assistant anyway.
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: She turns and begins walking down the hallway, muttering under her breath.
       You can't quite make it out.
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: You remember the latin you saw written on the tank when you used your ability.
       "Piscem natare doces"
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: You took latin when we were in school, didn't you?
     portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: Yeah, I was pretty good at it too. Why does it matter?
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: There was latin written on the tank the arm was found it, I saw it when
       I used my ability. It said "Piscem natare doces".
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: You teach fish to swim. It's a saying, it means over explaining or talking
       down to someone who already knows how to do something.
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: 
     text: She didn't even have to think about it. Seems like she really was good
       at latin.
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: It's odd that it isn't written there now. The police wouldn't have erased
       it, and I don't imagine the employee that found the thing would've been messing
@@ -83,23 +105,31 @@ MonoBehaviour:
     portrait: {fileID: 2973093552332344111, guid: 54b418c46e9cc4b4eada0e2071b70b54, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: You're the detective. You tell me. Did you get anything out of the owner?
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: I found out who the victim is, Jacob Mills. He used to work here but was
       fired about six months ago for stealing.
     portrait: {fileID: 6677995753146789958, guid: 373ea943f97c70441853dcccbbf450c5, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: For stealing? If she never got the money back that could be a pretty good
       motive...
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: There might be more to it. I got the feeling there was something she wasn't
       telling me, but I wasn't getting anything else out of her. I wish we could
@@ -107,18 +137,24 @@ MonoBehaviour:
     portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: Why can't we? It's not like we need her permission, just sneak in and grab
       it.
     portrait: {fileID: 9091477151250708980, guid: 3675fa972173fc04f8e60d1f5078c87e, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Player
     text: Of course that's your answer. How am I supposed to sneak into her office
       while she's in there?
     portrait: {fileID: -5145377406912819389, guid: 5fca7c0c165d3bf458f324e66fbdb450, type: 3}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 0
+    musicTrackName: 
   - characterName: Isabelle
     text: Easy. I'll cause a distraction. Or if you're too scared you can do it and
       I'll sneak in. Which one do you want?
@@ -126,6 +162,11 @@ MonoBehaviour:
     hasChoices: 1
     choices:
     - choiceText: I can do it
-      nextDialogue: {fileID: 0}
+      nextDialogue: {fileID: 11400000, guid: 3e67f750664e44d209045162f14c9ce6, type: 2}
     - choiceText: I'm not a thief
       nextDialogue: {fileID: 11400000, guid: c6f47529563cd45db926802a9759c6b7, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: minuet
+  sfxName: 

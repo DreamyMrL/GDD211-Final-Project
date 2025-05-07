@@ -20,6 +20,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     hasChoices: 0
     choices: []
+    triggerMusicSwitch: 1
+    musicTrackName: Majic_Flute
   - characterName: Isabelle
     text: I'm gonna see what I can get out of talking to the owner, you should probably
       focus on out here with your ability.
@@ -30,3 +32,8 @@ MonoBehaviour:
       nextDialogue: {fileID: 11400000, guid: 223f6be3867a7446b8637ed7ef77127a, type: 2}
     - choiceText: Examine coral tank
       nextDialogue: {fileID: 11400000, guid: a92b80caf79324ca68671dfa04b8ee9d, type: 2}
+    triggerMusicSwitch: 0
+    musicTrackName: 
+  isAudioTriggered: 0
+  musicTrackName: Majic_Flute
+  sfxName: 
